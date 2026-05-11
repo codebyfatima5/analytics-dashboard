@@ -9,7 +9,7 @@ import PieChartComponent from "../components/charts/PieChartComponent";
 import Loader from "../components/common/Loader";
 import DateFilter from "../components/filters/DateFilter";
 
-import { fetchDashboardData } from "../services/api";
+import { fetchDashboardData } from "../services/Api";
 import { exportCSV } from "../services/exportCSV";
 
 export default function Dashboard() {
